@@ -19,7 +19,7 @@ ENGLISH_WORDS = set(w.lower() for w in words.words())
 
 class Cryptic:
     """
-    Find anagram words/phrases from a bag of letters split by group sizes.
+    Find anagram words/phrases from a bag of letters split by group sizes
     """
     
 
