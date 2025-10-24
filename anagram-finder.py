@@ -76,8 +76,8 @@ class Cryptic:
 
 
 def main():
-    input_letters = 'needth'
-    num_words = [3, 3]
+    input_letters = 'needth' # CHANGE FOR THE LETTERS INPUT
+    num_words = [3, 3] # CHANGE FOR THE NUMBER OF WORDS AND LETTERS
     cryptic = Cryptic(input_letters, num_words)
     possible_words = cryptic.anagram_finder()
 
